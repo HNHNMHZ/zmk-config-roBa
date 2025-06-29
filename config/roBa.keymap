@@ -41,7 +41,11 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT>, <&macro_press>, <&kp GRAVE &kt LEFT_ALT>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp GRAVE>;
 
             label = "TO_LAYER_0";
         };
