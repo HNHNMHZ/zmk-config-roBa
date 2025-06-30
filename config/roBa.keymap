@@ -78,10 +78,10 @@
 
         symbol {
             bindings = <
-&kp TAB           &trans        &trans        &trans     &trans                      &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp CAPSLOCK      &trans        &trans        &trans     &trans  &trans      &trans  &trans  &trans     &kp SEMICOLON     &kp SQT            &kp ENTER
-&kp LEFT_SHIFT    &trans        &trans        &trans     &trans  &trans      &trans  &trans  &kp COMMA  &kp PERIOD        &kp SLASH          &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &trans  &trans      &trans  &trans                                                  &kp RIGHT_CONTROL
+&kp TAB           &trans        &trans        &trans     &trans                       &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp CAPSLOCK      &trans        &trans        &trans     &trans  &trans      &kp ESC  &trans  &trans     &kp SEMICOLON     &kp SQT            &kp ENTER
+&kp LEFT_SHIFT    &trans        &trans        &trans     &trans  &trans      &trans   &trans  &kp COMMA  &kp PERIOD        &kp SLASH          &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &trans  &trans      &trans   &trans                                                  &kp RIGHT_CONTROL
             >;
         };
 
